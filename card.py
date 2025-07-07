@@ -15,7 +15,7 @@ class Card:
         if self.element == other.element:
             if self.power > other.power:
                 return "Win"
-            elif self.power < other.number:
+            elif self.power < other.power:
                 return "Lose"
             else:
                 return "Tie"
